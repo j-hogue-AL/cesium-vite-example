@@ -16,6 +16,11 @@ If you create a new Vite project with [`create-vite`](https://vitejs.dev/guide/#
 npm install
 npm run dev
 ```
+If you encounter an error with the protobuf library run:
+```sh
+npm uninstall protobufjs
+npm install protobufjs@7.3.0
+```
 
 For the built, production version
 
